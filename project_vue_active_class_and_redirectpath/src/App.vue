@@ -1,18 +1,18 @@
 <template>
-  <div class="container">
-    <compClient/>
-    <compUser/>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import compClient from "./components/Client.vue"
-import compUser from "./components/User.vue"
+import HelloWorld from './components/HelloWorld.vue'
+
 export default {
-    components:{
-      compClient,
-      compUser
-    }
+  name: 'App',
+  components: {
+    HelloWorld
+  }
 }
 </script>
 

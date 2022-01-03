@@ -1,4 +1,4 @@
-# project_vue_mixin
+# project_vue_active_class_and_redirectpath
 
 ## Project setup
 ```
