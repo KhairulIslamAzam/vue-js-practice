@@ -1,4 +1,4 @@
-# project_vue_active_class_and_redirectpath
+# project_vue_custom_global_directive
 
 ## Project setup
 ```
