@@ -27,6 +27,9 @@ export default {
         navigateToHome(){
             this.$router.push({name : 'home'})
         }
+    },
+    beforeRouteEnter(to, form, next){
+        next(false)
     }
 }
 </script>
